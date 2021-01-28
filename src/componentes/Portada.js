@@ -1,3 +1,7 @@
+import Lista from './Lista';
+
+const frutas =[ "Papaya", "Mango", "Sandía"  ];
+
 export default function Portada (params) {
     
 
@@ -16,6 +20,11 @@ export default function Portada (params) {
         <div className="row">
             <div className="alert alert-info">
                 Sigue Jeison
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-sm-12">
+                <Lista array={frutas} />
             </div>
         </div>
     </div>
